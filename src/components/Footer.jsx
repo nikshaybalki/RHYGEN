@@ -87,22 +87,22 @@ const Footer = () => {
           </p> */}
 
 
-<p className="text-gray-400 text-sm flex items-center gap-2">
+ {/* <p className="text-gray-400 text-sm flex items-center gap-2">
   © 2026 <span className="text-forest font-bold ml-1">RHYGEN</span>. 
   <span className="ml-1">Created by -</span>
-  
+   */}
   {/* Link for the Name */}
-  <a 
+  {/* <a 
     href="https://www.linkedin.com/in/nikshay-balki-7b2909321" 
     target="_blank" 
     rel="noopener noreferrer"
     className="hover:text-forest transition-colors font-medium border-b border-transparent hover:border-forest"
   >
     Nikshay . A . Balki
-  </a>
+  </a> */}
 
   {/* LinkedIn Icon Link */}
-  <motion.a 
+  {/* <motion.a 
     whileHover={{ scale: 1.2, rotate: 5 }}
     href="https://www.linkedin.com/in/nikshay-balki-7b2909321" 
     target="_blank" 
@@ -120,7 +120,61 @@ const Footer = () => {
       <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-1.337-.025-3.062-1.865-3.062-1.867 0-2.153 1.459-2.153 2.966v5.7h-3v-11h2.88v1.503h.04c.401-.76 1.381-1.559 2.839-1.559 3.036 0 3.596 1.998 3.596 4.596v6.46z"/>
     </svg>
   </motion.a>
-</p>
+</p> */}
+
+
+
+
+<div className="flex flex-col items-center md:items-start gap-3">
+  <p className="text-gray-400 text-sm text-center md:text-left leading-relaxed">
+    © 2026 <span className="text-forest font-bold">RHYGEN</span>. 
+    <span className="block sm:inline"> Created by </span>
+    
+    {/* Link for the Name */}
+    <a 
+      href="https://www.linkedin.com/in/nikshay-balki-7b2909321" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="text-charcoal font-bold hover:text-forest transition-colors border-b border-transparent hover:border-forest"
+    >
+      Nikshay . A . Balki
+    </a>
+  </p>
+
+  {/* LinkedIn Button for Mobile - More "Touch-Friendly" */}
+  <motion.a 
+    whileTap={{ scale: 0.9 }}
+    href="https://www.linkedin.com/in/nikshay-balki-7b2909321" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 bg-[#0077B5]/10 px-4 py-2 rounded-full text-[#0077B5] hover:bg-[#0077B5] hover:text-white transition-all duration-300"
+  >
+    <span className="text-xs font-bold uppercase tracking-wider">Connect</span>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="16" 
+      height="16" 
+      viewBox="0 0 24 24" 
+      fill="currentColor"
+    >
+      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-1.337-.025-3.062-1.865-3.062-1.867 0-2.153 1.459-2.153 2.966v5.7h-3v-11h2.88v1.503h.04c.401-.76 1.381-1.559 2.839-1.559 3.036 0 3.596 1.998 3.596 4.596v6.46z"/>
+    </svg>
+  </motion.a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
