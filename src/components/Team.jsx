@@ -6,7 +6,7 @@ const founders = [
     name: "Sajal Deolikar",
     role: "Co-Founder",
     expertise: "IIT Bombay | Powertrain Specialist",
-    img: "/assets/sajal.jpg", // Place your images in public/assets/
+    img: "/assets/sajal.png", // Place your images in public/assets/
   },
   {
     name: "Sannidhya K.",
