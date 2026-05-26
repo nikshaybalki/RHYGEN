@@ -6,7 +6,7 @@ const prototypeSteps = [
     title: "Combined Setup",
     label: "Full System Integration",
     desc: "The complete bibtya_0.1 bench prototype testing synchronization between power sources.",
-    img: "/assets/proto-combined.png",
+    img: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
     // We limit the height on desktop so it doesn't grow infinitely
     size: "md:col-span-2 md:row-span-2 max-h-[400px] md:max-h-[600px]"
   },
@@ -14,21 +14,21 @@ const prototypeSteps = [
     title: "Engine-Motor Setup",
     label: "Power Generation",
     desc: "High-efficiency coupling for optimal energy conversion.",
-    img: "/assets/proto-engine.png",
+    img: "https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=800&q=80",
     size: "md:col-span-1 max-h-[250px] md:max-h-[290px]"
   },
   {
     title: "Embedded Systems",
     label: "Control Unit",
     desc: "Custom ECU logic for real-time hybrid power distribution.",
-    img: "/assets/proto-embedded.png",
+    img: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
     size: "md:col-span-1 max-h-[250px] md:max-h-[290px]"
   },
   {
     title: "Motor-Load Setup",
     label: "Stress Testing",
     desc: "Simulating heavy-duty uphill torque requirements.",
-    img: "/assets/proto-load.png",
+    img: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
     size: "md:col-span-2 max-h-[250px] md:max-h-[290px]"
   }
 ];

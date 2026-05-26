@@ -57,9 +57,13 @@ const Contact = () => {
             </motion.button>
             
             <motion.div className="flex -space-x-4">
-               {[1,2,3].map((i) => (
+               {[
+                 "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80",
+                 "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&h=150&q=80",
+                 "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80"
+               ].map((url, i) => (
                  <div key={i} className="w-12 h-12 rounded-full border-4 border-forest bg-gray-200 overflow-hidden shadow-lg">
-                   <img src={`https://i.pravatar.cc/150?u=${i+10}`} alt="user" />
+                   <img src={url} alt="partner user" className="w-full h-full object-cover" />
                  </div>
                ))}
                <div className="pl-6 flex flex-col items-start justify-center">

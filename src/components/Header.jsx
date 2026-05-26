@@ -101,21 +101,32 @@ const Header = () => {
   className="flex items-center cursor-pointer z-[110]" 
   onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
 >
-  {/* Logo Image Container */}
-  <div className="h-12 w-auto flex items-center justify-center">
-    <img 
-      src="/assets/rygen.png" 
-      alt="RHYGEN Logo" 
-      className="h-full w-auto object-contain"
-      // Optimization: Ensure the image doesn't flicker on load
-      loading="eager" 
-    />
+  {/* Logo SVG - Representing Synaptic Nodes and Connectivity */}
+  <div className="h-10 w-10 flex items-center justify-center bg-forest/5 rounded-xl border border-forest/10 p-1">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 100 100"
+      className="w-full h-full text-forest"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="6"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      {/* Dynamic connections */}
+      <line x1="30" y1="30" x2="50" y2="50" strokeWidth="5" className="opacity-70 stroke-forest" />
+      <line x1="70" y1="30" x2="50" y2="50" strokeWidth="5" className="opacity-70 stroke-sky" />
+      <line x1="50" y1="75" x2="50" y2="50" strokeWidth="5" className="opacity-70 stroke-forest" />
+      {/* Node circles */}
+      <circle cx="30" cy="30" r="9" className="fill-white stroke-forest" strokeWidth="7" />
+      <circle cx="70" cy="30" r="9" className="fill-white stroke-sky" strokeWidth="7" />
+      <circle cx="50" cy="75" r="11" className="fill-forest stroke-forest" />
+      <circle cx="50" cy="50" r="8" className="fill-sky stroke-sky" />
+    </svg>
   </div>
   
-  {/* Optional: Keep the text if your image is just an icon, 
-      otherwise, you can remove the span below */}
-  <span className="ml-3 text-2xl font-black text-forest tracking-tighter hidden sm:block">
-    RHYGEN
+  <span className="ml-3 text-2xl font-black text-forest tracking-wider uppercase">
+    Synaptic
   </span>
 </motion.div>
 

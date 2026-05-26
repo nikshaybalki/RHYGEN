@@ -3,22 +3,22 @@ import { motion } from 'framer-motion';
 
 const founders = [
   {
-    name: "Sajal Deolikar",
-    role: "Co-Founder",
-    expertise: "IIT Bombay | Powertrain Specialist",
-    img: "/assets/sajal.png", // Place your images in public/assets/
+    name: "Dr. Evelyn Sterling",
+    role: "Co-Founder & Chief Scientist",
+    expertise: "MIT | Advanced Hybrid Systems",
+    img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&h=750&q=80",
   },
   {
-    name: "Sannidhya K.",
-    role: "Co-Founder",
-    expertise: "IIT Bombay | Systems Engineering",
-    img: "/assets/sannidhya.jpg",
+    name: "Marcus Vance",
+    role: "Co-Founder & Head of Systems",
+    expertise: "Stanford | Real-Time Control",
+    img: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&h=750&q=80",
   },
   {
-    name: "Aditya Anand",
-    role: "Co-Founder",
-    expertise: "IIT Bombay | Product Design",
-    img: "/assets/aditya.jpg",
+    name: "Siddharth Roy",
+    role: "Co-Founder & Product Architect",
+    expertise: "IIT Bombay | Electric Heavy Vehicles",
+    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&h=750&q=80",
   }
 ];
 
@@ -37,7 +37,7 @@ const Team = () => {
             The <span className="text-forest">Founding</span> Team
           </motion.h2>
           <p className="text-gray-500 mt-4 max-w-xl mx-auto">
-            A team of IIT Bombay graduates dedicated to revolutionizing the Indian commercial vehicle landscape through sustainable engineering.
+            A team of visionary engineers dedicated to revolutionizing the Indian commercial vehicle landscape through world-class sustainable technology.
           </p>
         </div>
 

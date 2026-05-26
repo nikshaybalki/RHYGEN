@@ -15,7 +15,7 @@ const Vision = () => {
         >
           <div className="rounded-3xl overflow-hidden shadow-2xl border-8 border-gray-50">
             <img 
-              src="/assets/vision-greenery.png" 
+              src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1200&q=80" 
               alt="Sustainable Logistics Vision" 
               className="w-full h-auto transform hover:scale-105 transition-transform duration-700"
             />
@@ -37,7 +37,7 @@ const Vision = () => {
             Our <span className="text-forest">Vision</span>
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed mb-8">
-            At RHYGEN, we aren't just building engines; we are cultivating a sustainable 
+            At Synaptic, we aren't just building engines; we are cultivating a sustainable 
             ecosystem for Indian logistics. Our mission is to revolutionize the commercial 
             vehicle industry by integrating high-performance hybrid powertrains that 
             drastically reduce the carbon footprint of every kilometer traveled.

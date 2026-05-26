@@ -75,7 +75,7 @@ const Emission = () => {
               <p className="font-bold text-sm uppercase">Current Industry Standard</p>
             </motion.div>
 
-            {/* The "Rhygen" Solution Circle - Overlapping on Hover */}
+            {/* The "Synaptic" Solution Circle - Overlapping on Hover */}
             <motion.div 
               whileHover={{ scale: 1.1, zIndex: 20 }}
               className="absolute w-72 h-72 bg-forest rounded-full flex flex-col items-center justify-center text-white p-8 text-center cursor-pointer shadow-2xl border-4 border-white translate-x-20 translate-y-20"

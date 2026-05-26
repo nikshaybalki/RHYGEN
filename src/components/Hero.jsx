@@ -47,9 +47,9 @@ const Hero = () => {
           <div className="absolute -top-10 -right-10 w-64 h-64 bg-sky/20 rounded-full blur-3xl"></div>
           
           <motion.img 
-            src="/assets/hero-truck.png" // Ensure you place your truck image here
-            alt="Rhygen Hybrid Truck" 
-            className="relative z-10 w-full h-auto drop-shadow-2xl"
+            src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=80" 
+            alt="Synaptic Hybrid Truck" 
+            className="relative z-10 w-full h-auto drop-shadow-2xl rounded-3xl object-cover shadow-[0_20px_50px_rgba(21,128,61,0.15)]"
             animate={{ y: [0, -15, 0] }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           />
